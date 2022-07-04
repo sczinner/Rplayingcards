@@ -1,5 +1,5 @@
-#Values 0-12 (ace through king)
-#Suits 0-3 (diamonds, hearts, clubs, spades)
+#Values 1-13 (ace through king)
+#Suits 1-4 (diamonds, hearts, clubs, spades)
 #each card is:
 #c(value, suit)
 VALUES = c("Ace", "Two", "Three", "Four", "Five", "Six","Seven","Eight","Nine",
