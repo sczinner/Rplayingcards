@@ -5,6 +5,6 @@
 #c(value, suit)
 #hence the result is a 52x2 matrix
 deck<-function(){
-  sample52<-sample(52)
+  sample52<-sample(52)-1
   return(cbind(sample52%%13+1,floor(sample52/13)+1))
 }
